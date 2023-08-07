@@ -1,0 +1,37 @@
+name: Clue to mind stone
+
+on:
+    push:
+      branches:
+        - master
+jobs:
+  mind-stone:
+    name: Clue to Mind Stone
+    runs-on: 'ubuntu-latest' 
+    timeout-minutes: 2
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3  
+      - name: Print Summary
+        run: |
+             echo "# The Mind Stone Quest"
+             echo "The Avengers and their search for the Mind Stone led them across multiple galaxies, and after countless cosmic adventures, they finally obtained a crucial lead. Tony Stark, had once created Vision using the Mind Stone and had access to valuable metadata about its unique energy signature." >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "Analysing the data, they made an astonishing discovery. The Mind Stone's energy pattern was unexpectedly similar to the elusive Gamma rays emanating from a distant point in the cosmos. It appeared that the stone's signal was continuously moving, akin to the rhythm of a beating heart." >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "With their new lead, the Avengers embarked on a perilous journey to the distant planet from where the Gamma ray-like signals originated. Upon their arrival, they were greeted by an ancient and wise civilization. These people lived in harmony, guided by the teachings of an ancient temple." >> $GITHUB_STEP_SUMMARY              
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "As the Avengers spoke with the inhabitants, they learned of a remarkable phenomenon.Recently, whenever someone touched the sacred walls of this temple, their minds underwent a profound transformation. Memories, emotions, and even beliefs were altered, revealing hidden truths about themselves." >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "Realising that the Mind Stone lay behind the temple's mysterious walls, the Avengers understood that they must face a series of challenges and illusions to prove their mental fortitude.They reached a door where something was inscribed within which says" >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "# Welcome to AWS, Find your answers from The Great 'SSS', in the land of Seoul" >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "The mindstone lies behind this door & you already have the keys with you.Following this path will guide you to the enigmatic Mindstone,a crucial step forward in your quest to revive everyone.Ensure that you double-check your findings.The journey is all about the mind stone and there might be tricky mind games."  >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "*Note:*" >> $GITHUB_STEP_SUMMARY
+             echo " " >> $GITHUB_STEP_SUMMARY
+             echo "*Once you collect the mind stone, you are one step closer in reaching the gauntlet.The essence of the Soul Stone is intertwined with the very core of the gauntlet itself, serving as a guiding beacon towards its location. This enigmatic gauntlet, shrouded in secrecy, is concealed within a distant and secluded realm accessible solely through the ethereal Bifrost.To reach out to bifrost enter the secret key to the server. Once you enter all 5 codes correctly the bifrost will open will take you closest to the endgame.*" >> $GITHUB_STEP_SUMMARY   
+
+             
